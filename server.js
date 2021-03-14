@@ -7,7 +7,6 @@ var app = express();
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static("public"));
 
-// Parse application body, open the box to get data from browser and stores in req.body
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
