@@ -40,3 +40,13 @@ img{
  width: 100%;
  text-align: center;
 }
+button {
+    width: 25%;
+color: royalblue;
+font-style: italic;
+background-color:yellowgreen;}
+
+button:hover {
+    background:yellow;
+    color: tomato;
+  }
