@@ -20,3 +20,22 @@ body {
     display: table-cell;
     vertical-align: middle;
 }
+
+.chest1,
+.chest2,
+.chest3{
+    display: inline-block;
+}
+
+/* Setting width, height, padding and margin */
+img{
+  width: 200px;
+  height: 200px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+#chest_container {
+ width: 100%;
+ text-align: center;
+}
